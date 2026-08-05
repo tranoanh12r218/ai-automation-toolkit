@@ -7,7 +7,7 @@ A lightweight Python toolkit for building AI-powered automation workflows, conte
 ## Features
 
 - Clean and normalize text
-- Truncate text safely
+- Safely truncate text
 - Read and write text files
 - List files using glob patterns
 - Split text into manageable chunks
