@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "ai-automation-toolkit"
+version = "0.1.0"
+description = "A lightweight Python toolkit for AI-powered automation, content workflows, and productivity."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Oanh Tran" }
+]
+keywords = [
+    "ai",
+    "automation",
+    "python",
+    "productivity",
+    "text-processing",
+    "developer-tools"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Utilities"
+]
+
+
+[project.urls]
+Homepage = "https://github.com/tranoanh12r218/ai-automation-toolkit"
+Repository = "https://github.com/tranoanh12r218/ai-automation-toolkit"
+Issues = "https://github.com/tranoanh12r218/ai-automation-toolkit/issues"
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
